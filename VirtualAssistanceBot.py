@@ -173,6 +173,7 @@ if __name__ == "__main__":
         elif '' or 'blank' in query:
 
             speak("Not received any inputs from you, terminating!")
+  # Add new cases below
 
 
 
