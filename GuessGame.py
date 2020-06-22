@@ -4,7 +4,7 @@ def guessgame():
     """This method contains guess game using while loop """
     numberOfGuess=1
     print('WelCome To Number GuessGame, you have 7 attempts to complete the game:')
-    while (numberOfGuess<=9):
+    while (numberOfGuess<=10):
         guess=int(input('Please enter your guess:'))
         if guess <50:
             print('You have entered a smaller number')
@@ -17,7 +17,7 @@ def guessgame():
             print(7-numberOfGuess, 'Guesses Left Now!')
             numberOfGuess=numberOfGuess+1
             print(numberOfGuess)
-    if (numberOfGuess > 9):
+    if (numberOfGuess > 10):
             print('Game Over, Max Number of Guess Exceeded!')
 # Execute the function now
 guessgame()
