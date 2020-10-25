@@ -8,7 +8,7 @@ import smtplib,ssl
 import pyaudio
 from email.mime.multipart import MIMEMultipart
 
-# Variable declarations
+# Variable declarations demo
 botname="David"
 chrome_path = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
 engine = pyttsx3.init('sapi5')
