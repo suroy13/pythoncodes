@@ -7,22 +7,31 @@
 
 Hindi_to_English = { "car": "गाड़ी","house"  : "घर","book": "किताब","school": "स्कूल","garden": "बगीचा" }
 
-hindiword=input("Enter the Hindi word: ")
-print("The meaning of Hindi word is: ",Hindi_to_English.get(hindiword))
+# hindiword=input("Enter the Hindi word: ")
+# print("The meaning of Hindi word is: ",Hindi_to_English.get(hindiword))
 # for i in Hindi_to_English.items():
 #     print(i)car
 #------------------------------
 
 #problem to take 5 numbers are input and print unique numbers
-numberset=set()
-n=int(input("Enter the number of elements 1: "))
-numberset.add(n)
-n=int(input("Enter the number of elements 2: "))
-numberset.add(n)
-n=int(input("Enter the number of elements 3: "))
-numberset.add(n)
-n=int(input("Enter the number of elements 4: "))
-numberset.add(n)
-n=int(input("Enter the number of elements 5: "))
-numberset.add(n)
-print(numberset)
+# numberset=set()
+# n=int(input("Enter the number of elements 1: "))
+# numberset.add(n)
+# n=int(input("Enter the number of elements 2: "))
+# numberset.add(n)
+# n=int(input("Enter the number of elements 3: "))
+# numberset.add(n)
+# n=int(input("Enter the number of elements 4: "))
+# numberset.add(n)
+# n=int(input("Enter the number of elements 5: "))
+# numberset.add(n)
+# print(numberset)
+#------------------------------
+#problem to take int and string in set
+
+globalset=set()
+numberfirst=int(input("Enter the number: "))
+globalset.add(numberfirst)
+Stringelement=input("Enter the string: ")
+globalset.add(Stringelement)
+print(globalset)
