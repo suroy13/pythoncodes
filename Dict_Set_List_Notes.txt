@@ -1,0 +1,19 @@
+Set in python only return unique values that is if we have same item in list more than once
+still it will return the item only once
+
+set={1,2,3,3,3,4,5,7}
+
+it will retun 
+1,2,3,4,5,7 only
+
+Set are unordered, so if we need ordered we need to use list
+
+------------------------------
+
+empty set can be declated as 
+
+set=()
+
+empty disctionary 
+
+dict ={}
